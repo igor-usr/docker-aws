@@ -38,7 +38,7 @@ Criar VPC e suas sub-redes (seguir esquema abaixo):
 
 Criar grupos de segurança
 
-- 01 públic
+- 01 público
 
 | Tipo | Protocolo | Porta | Origem |
 |------|-----------|-------|-------- |
