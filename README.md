@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Wordpress e Docker na AWS
 
 Estrutura do Wordpress com Docker no ambiente da AWS
@@ -153,7 +151,3 @@ Acessar página Wordpress
 
 - selecionar DNS do Load Balancer
 - usar no navegador o DNS >> "http://(DNS so LoadBalancer)"
-=======
-# docker-aws
-Projeto Wordpress/Docker na AWS
->>>>>>> origin/main
