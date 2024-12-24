@@ -38,21 +38,23 @@ Criar VPC e suas sub-redes (seguir esquema abaixo):
 
 Criar grupos de segurança
 
-- 01 público
-| Tipo | Protocolo | Porta | Origem
-|------|-----------|-------|--------
-| SSH | TCP | 22 | 0.0.0.0/0
-| HTTP | TCP | 80 | 0.0.0.0/0
+- 01 públic
+
+| Tipo | Protocolo | Porta | Origem |
+|------|-----------|-------|-------- |
+| SSH | TCP | 22 | 0.0.0.0/0 |
+| HTTP | TCP | 80 | 0.0.0.0/0 |
 
 <img src="/img/imagem (4).png" alt="publico">
 
 - 01 privado
-| Tipo | Protocolo | Porta | Origem
-|------|-----------|-------|--------
-| HTTP | TCP | 80 | G. seg. público
-| SSH | TCP | 22 | 0.0.0.0/0
-| MySQL/Aurora | TCP | 3306 | 0.0.0.0/0
-| HTTPS | TCP | 443 | G. seg. público
+
+| Tipo | Protocolo | Porta | Origem |
+|------|-----------|-------|-------- |
+| HTTP | TCP | 80 | G. seg. público |
+| SSH | TCP | 22 | 0.0.0.0/0 |
+| MySQL/Aurora | TCP | 3306 | 0.0.0.0/0 |
+| HTTPS | TCP | 443 | G. seg. público |
 
 <img src="/img/imagem (5).png" alt="privado">
 
