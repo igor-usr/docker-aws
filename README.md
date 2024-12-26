@@ -105,7 +105,7 @@ Criar Load Balancers seguindo estes parâmetros:
 
 - instâncias >> EC2 criadas
 
-## Etapa 05
+## Etapa 06
 
 Criar duas instâncias EC2 através de modelos de execução:
 
@@ -115,13 +115,13 @@ Criar duas instâncias EC2 através de modelos de execução:
 - selecionar sub-redes privadas criadas anteriormente
 - selecionar grupo de segurança privado
 
-## Etapa 06
+## Etapa 07
 
 Criar o script do user_data.sh
 
 <img src="/img/imagem.png" alt="user_data">
 
-## Etapa 07
+## Etapa 08
 
 Criar Auto Scaling
 - modelo de execução >> WP-webserver (criado anteriormente)
@@ -142,7 +142,7 @@ Criar Auto Scaling
 
 - selecionar capacidade máxima desejada >> 2
 
-## Etapa 08 (opicional)
+## Etapa 09 (opicional)
 
 Acessar EC2 via SSH
 
