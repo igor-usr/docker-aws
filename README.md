@@ -45,7 +45,7 @@ Criar grupos de segurança
 | SSH | TCP | 22 | 0.0.0.0/0 |
 | HTTP | TCP | 80 | 0.0.0.0/0 |
 
-<img src="/img/imagem (4).png" alt="publico">
+<img src="/img/imagem (5).png" alt="publico">
 
 - 01 privado
 
@@ -56,7 +56,7 @@ Criar grupos de segurança
 | MySQL/Aurora | TCP | 3306 | 0.0.0.0/0 |
 | HTTPS | TCP | 443 | G. seg. público |
 
-<img src="/img/imagem (5).png" alt="privado">
+<img src="/img/imagem (4).png" alt="privado">
 
 ## Etapa 03
 
